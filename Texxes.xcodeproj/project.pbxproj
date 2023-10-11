@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D701CD2AD6F31600CD4232 /* TexxesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701CC2AD6F31600CD4232 /* TexxesApp.swift */; };
+		D3D701CF2AD6F31600CD4232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701CE2AD6F31600CD4232 /* ContentView.swift */; };
+		D3D701D12AD6F31700CD4232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D701D02AD6F31700CD4232 /* Assets.xcassets */; };
+		D3D701D42AD6F31700CD4232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D701D32AD6F31700CD4232 /* Preview Assets.xcassets */; };
+		D3D701DE2AD6F31700CD4232 /* TexxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701DD2AD6F31700CD4232 /* TexxesTests.swift */; };
+		D3D701E82AD6F31700CD4232 /* TexxesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701E72AD6F31700CD4232 /* TexxesUITests.swift */; };
+		D3D701EA2AD6F31700CD4232 /* TexxesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701E92AD6F31700CD4232 /* TexxesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D701DA2AD6F31700CD4232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D701C12AD6F31600CD4232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D701C82AD6F31600CD4232;
+			remoteInfo = Texxes;
+		};
+		D3D701E42AD6F31700CD4232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D701C12AD6F31600CD4232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D701C82AD6F31600CD4232;
+			remoteInfo = Texxes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D701C92AD6F31600CD4232 /* Texxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D701CC2AD6F31600CD4232 /* TexxesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexxesApp.swift; sourceTree = "<group>"; };
+		D3D701CE2AD6F31600CD4232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3D701D02AD6F31700CD4232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D701D32AD6F31700CD4232 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3D701D92AD6F31700CD4232 /* TexxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D701DD2AD6F31700CD4232 /* TexxesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexxesTests.swift; sourceTree = "<group>"; };
+		D3D701E32AD6F31700CD4232 /* TexxesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexxesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D701E72AD6F31700CD4232 /* TexxesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexxesUITests.swift; sourceTree = "<group>"; };
+		D3D701E92AD6F31700CD4232 /* TexxesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexxesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D701C62AD6F31600CD4232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D701D62AD6F31700CD4232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D701E02AD6F31700CD4232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D701C02AD6F31600CD4232 = {
+			isa = PBXGroup;
+			children = (
+				D3D701CB2AD6F31600CD4232 /* Texxes */,
+				D3D701DC2AD6F31700CD4232 /* TexxesTests */,
+				D3D701E62AD6F31700CD4232 /* TexxesUITests */,
+				D3D701CA2AD6F31600CD4232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D701CA2AD6F31600CD4232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D701C92AD6F31600CD4232 /* Texxes.app */,
+				D3D701D92AD6F31700CD4232 /* TexxesTests.xctest */,
+				D3D701E32AD6F31700CD4232 /* TexxesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D701CB2AD6F31600CD4232 /* Texxes */ = {
+			isa = PBXGroup;
+			children = (
+				D3D701CC2AD6F31600CD4232 /* TexxesApp.swift */,
+				D3D701CE2AD6F31600CD4232 /* ContentView.swift */,
+				D3D701D02AD6F31700CD4232 /* Assets.xcassets */,
+				D3D701D22AD6F31700CD4232 /* Preview Content */,
+			);
+			path = Texxes;
+			sourceTree = "<group>";
+		};
+		D3D701D22AD6F31700CD4232 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3D701D32AD6F31700CD4232 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3D701DC2AD6F31700CD4232 /* TexxesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D701DD2AD6F31700CD4232 /* TexxesTests.swift */,
+			);
+			path = TexxesTests;
+			sourceTree = "<group>";
+		};
+		D3D701E62AD6F31700CD4232 /* TexxesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D701E72AD6F31700CD4232 /* TexxesUITests.swift */,
+				D3D701E92AD6F31700CD4232 /* TexxesUITestsLaunchTests.swift */,
+			);
+			path = TexxesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D701C82AD6F31600CD4232 /* Texxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D701ED2AD6F31700CD4232 /* Build configuration list for PBXNativeTarget "Texxes" */;
+			buildPhases = (
+				D3D701C52AD6F31600CD4232 /* Sources */,
+				D3D701C62AD6F31600CD4232 /* Frameworks */,
+				D3D701C72AD6F31600CD4232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Texxes;
+			productName = Texxes;
+			productReference = D3D701C92AD6F31600CD4232 /* Texxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D701D82AD6F31700CD4232 /* TexxesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D701F02AD6F31700CD4232 /* Build configuration list for PBXNativeTarget "TexxesTests" */;
+			buildPhases = (
+				D3D701D52AD6F31700CD4232 /* Sources */,
+				D3D701D62AD6F31700CD4232 /* Frameworks */,
+				D3D701D72AD6F31700CD4232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D701DB2AD6F31700CD4232 /* PBXTargetDependency */,
+			);
+			name = TexxesTests;
+			productName = TexxesTests;
+			productReference = D3D701D92AD6F31700CD4232 /* TexxesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D701E22AD6F31700CD4232 /* TexxesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D701F32AD6F31700CD4232 /* Build configuration list for PBXNativeTarget "TexxesUITests" */;
+			buildPhases = (
+				D3D701DF2AD6F31700CD4232 /* Sources */,
+				D3D701E02AD6F31700CD4232 /* Frameworks */,
+				D3D701E12AD6F31700CD4232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D701E52AD6F31700CD4232 /* PBXTargetDependency */,
+			);
+			name = TexxesUITests;
+			productName = TexxesUITests;
+			productReference = D3D701E32AD6F31700CD4232 /* TexxesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D701C12AD6F31600CD4232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D3D701C82AD6F31600CD4232 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D3D701D82AD6F31700CD4232 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D3D701C82AD6F31600CD4232;
+					};
+					D3D701E22AD6F31700CD4232 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D3D701C82AD6F31600CD4232;
+					};
+				};
+			};
+			buildConfigurationList = D3D701C42AD6F31600CD4232 /* Build configuration list for PBXProject "Texxes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D701C02AD6F31600CD4232;
+			productRefGroup = D3D701CA2AD6F31600CD4232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D701C82AD6F31600CD4232 /* Texxes */,
+				D3D701D82AD6F31700CD4232 /* TexxesTests */,
+				D3D701E22AD6F31700CD4232 /* TexxesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D701C72AD6F31600CD4232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D701D42AD6F31700CD4232 /* Preview Assets.xcassets in Resources */,
+				D3D701D12AD6F31700CD4232 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D701D72AD6F31700CD4232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D701E12AD6F31700CD4232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D701C52AD6F31600CD4232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D701CF2AD6F31600CD4232 /* ContentView.swift in Sources */,
+				D3D701CD2AD6F31600CD4232 /* TexxesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D701D52AD6F31700CD4232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D701DE2AD6F31700CD4232 /* TexxesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D701DF2AD6F31700CD4232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D701E82AD6F31700CD4232 /* TexxesUITests.swift in Sources */,
+				D3D701EA2AD6F31700CD4232 /* TexxesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D701DB2AD6F31700CD4232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D701C82AD6F31600CD4232 /* Texxes */;
+			targetProxy = D3D701DA2AD6F31700CD4232 /* PBXContainerItemProxy */;
+		};
+		D3D701E52AD6F31700CD4232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D701C82AD6F31600CD4232 /* Texxes */;
+			targetProxy = D3D701E42AD6F31700CD4232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3D701EB2AD6F31700CD4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D701EC2AD6F31700CD4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D701EE2AD6F31700CD4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Texxes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AD.Texxes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D701EF2AD6F31700CD4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Texxes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AD.Texxes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D701F12AD6F31700CD4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AD.TexxesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Texxes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Texxes";
+			};
+			name = Debug;
+		};
+		D3D701F22AD6F31700CD4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AD.TexxesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Texxes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Texxes";
+			};
+			name = Release;
+		};
+		D3D701F42AD6F31700CD4232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AD.TexxesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Texxes;
+			};
+			name = Debug;
+		};
+		D3D701F52AD6F31700CD4232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AD.TexxesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Texxes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D701C42AD6F31600CD4232 /* Build configuration list for PBXProject "Texxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D701EB2AD6F31700CD4232 /* Debug */,
+				D3D701EC2AD6F31700CD4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D701ED2AD6F31700CD4232 /* Build configuration list for PBXNativeTarget "Texxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D701EE2AD6F31700CD4232 /* Debug */,
+				D3D701EF2AD6F31700CD4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D701F02AD6F31700CD4232 /* Build configuration list for PBXNativeTarget "TexxesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D701F12AD6F31700CD4232 /* Debug */,
+				D3D701F22AD6F31700CD4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D701F32AD6F31700CD4232 /* Build configuration list for PBXNativeTarget "TexxesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D701F42AD6F31700CD4232 /* Debug */,
+				D3D701F52AD6F31700CD4232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D701C12AD6F31600CD4232 /* Project object */;
+}
