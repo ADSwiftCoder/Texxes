@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30C422E2AE948C9002E8E0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D30C422D2AE948C9002E8E0F /* GoogleService-Info.plist */; };
+		D30C42312AE94A3D002E8E0F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D30C42302AE94A3D002E8E0F /* FirebaseAuth */; };
+		D30C42332AE94A3D002E8E0F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D30C42322AE94A3D002E8E0F /* FirebaseDatabase */; };
+		D30C42352AE94A3D002E8E0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D30C42342AE94A3D002E8E0F /* FirebaseFirestore */; };
+		D30C42372AE94A3D002E8E0F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D30C42362AE94A3D002E8E0F /* FirebaseStorage */; };
+		D30C42392AE94C31002E8E0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C42382AE94C31002E8E0F /* HomeView.swift */; };
+		D30C423B2AE96723002E8E0F /* DataManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C423A2AE96723002E8E0F /* DataManagerView.swift */; };
 		D3D701CD2AD6F31600CD4232 /* TexxesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701CC2AD6F31600CD4232 /* TexxesApp.swift */; };
-		D3D701CF2AD6F31600CD4232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701CE2AD6F31600CD4232 /* ContentView.swift */; };
+		D3D701CF2AD6F31600CD4232 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701CE2AD6F31600CD4232 /* LoginView.swift */; };
 		D3D701D12AD6F31700CD4232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D701D02AD6F31700CD4232 /* Assets.xcassets */; };
 		D3D701D42AD6F31700CD4232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D701D32AD6F31700CD4232 /* Preview Assets.xcassets */; };
 		D3D701DE2AD6F31700CD4232 /* TexxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D701DD2AD6F31700CD4232 /* TexxesTests.swift */; };
@@ -34,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D30C422D2AE948C9002E8E0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D30C42382AE94C31002E8E0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D30C423A2AE96723002E8E0F /* DataManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerView.swift; sourceTree = "<group>"; };
 		D3D701C92AD6F31600CD4232 /* Texxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Texxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D701CC2AD6F31600CD4232 /* TexxesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexxesApp.swift; sourceTree = "<group>"; };
-		D3D701CE2AD6F31600CD4232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3D701CE2AD6F31600CD4232 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D3D701D02AD6F31700CD4232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D701D32AD6F31700CD4232 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3D701D92AD6F31700CD4232 /* TexxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30C42332AE94A3D002E8E0F /* FirebaseDatabase in Frameworks */,
+				D30C42372AE94A3D002E8E0F /* FirebaseStorage in Frameworks */,
+				D30C42312AE94A3D002E8E0F /* FirebaseAuth in Frameworks */,
+				D30C42352AE94A3D002E8E0F /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				D3D701CC2AD6F31600CD4232 /* TexxesApp.swift */,
-				D3D701CE2AD6F31600CD4232 /* ContentView.swift */,
+				D3D701CE2AD6F31600CD4232 /* LoginView.swift */,
+				D30C42382AE94C31002E8E0F /* HomeView.swift */,
+				D30C423A2AE96723002E8E0F /* DataManagerView.swift */,
+				D30C422D2AE948C9002E8E0F /* GoogleService-Info.plist */,
 				D3D701D02AD6F31700CD4232 /* Assets.xcassets */,
 				D3D701D22AD6F31700CD4232 /* Preview Content */,
 			);
@@ -143,6 +160,12 @@
 			dependencies = (
 			);
 			name = Texxes;
+			packageProductDependencies = (
+				D30C42302AE94A3D002E8E0F /* FirebaseAuth */,
+				D30C42322AE94A3D002E8E0F /* FirebaseDatabase */,
+				D30C42342AE94A3D002E8E0F /* FirebaseFirestore */,
+				D30C42362AE94A3D002E8E0F /* FirebaseStorage */,
+			);
 			productName = Texxes;
 			productReference = D3D701C92AD6F31600CD4232 /* Texxes.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +238,9 @@
 				Base,
 			);
 			mainGroup = D3D701C02AD6F31600CD4232;
+			packageReferences = (
+				D30C422F2AE94A3D002E8E0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D3D701CA2AD6F31600CD4232 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +259,7 @@
 			files = (
 				D3D701D42AD6F31700CD4232 /* Preview Assets.xcassets in Resources */,
 				D3D701D12AD6F31700CD4232 /* Assets.xcassets in Resources */,
+				D30C422E2AE948C9002E8E0F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D701CF2AD6F31600CD4232 /* ContentView.swift in Sources */,
+				D30C423B2AE96723002E8E0F /* DataManagerView.swift in Sources */,
+				D30C42392AE94C31002E8E0F /* HomeView.swift in Sources */,
+				D3D701CF2AD6F31600CD4232 /* LoginView.swift in Sources */,
 				D3D701CD2AD6F31600CD4232 /* TexxesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +612,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D30C422F2AE94A3D002E8E0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D30C42302AE94A3D002E8E0F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D30C422F2AE94A3D002E8E0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D30C42322AE94A3D002E8E0F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D30C422F2AE94A3D002E8E0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D30C42342AE94A3D002E8E0F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D30C422F2AE94A3D002E8E0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D30C42362AE94A3D002E8E0F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D30C422F2AE94A3D002E8E0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3D701C12AD6F31600CD4232 /* Project object */;
 }
